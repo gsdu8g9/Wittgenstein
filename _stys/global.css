@@ -1,0 +1,95 @@
+/*
+===============================================
+
+Wittgenstein
+	global.css
+
+@author: Samuel Acuna
+@date: 10/2013
+
+Styles and visual aspects of the interface
+
+===============================================
+*/
+@font-face { font-family:Icons; src:url('_fonts/fontawesome-webfont.ttf'); }
+
+body { font-family:Helvetica; 
+	font-size:9pt; }
+
+a { color:#06c; 
+	text-decoration:none; 
+	outline:none; }
+a:hover { color:#09f; }
+
+.controls { font-size:18pt; }
+.controls a { font-family:Icons; 
+	float:right; }
+
+.requests { padding:10px; 
+	background-color:#eee; 
+	height:500px; 
+	overflow:auto; 
+	font-family:Courier; }
+
+	/* successful request */
+	.requests .success { display:block; 
+		color:#0a0; }
+		.requests .success .description { color:#888; }
+
+	/* weird request */
+	.requests .warning { display:block; 
+		color:#d9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		\0; }
+		.requests .success .description { color:#888; }
+
+	/* bad request */ 
+	.requests .error { display:block; 
+		color:#a00; }
+		.requests .error .errorno { color:#c00; 
+			font-weight:bold; }
+		.requests .error .description { color:#333; }
